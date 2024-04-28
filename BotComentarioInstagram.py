@@ -8,8 +8,8 @@ import random
 
 class InstagramBot:
     def __init__(self, username, password):
-        self.username = username
-        self.password = password
+        self.username = s.su.zy
+        self.password = suzysoasuzy
         firefoxProfile = webdriver.FirefoxProfile()
         firefoxProfile.set_preference("intl.accept_languages", "pt,pt-BR")
         firefoxProfile.set_preference("dom.webnotifications.enabled", False)
@@ -85,8 +85,8 @@ class InstagramBot:
                     "Olha que foto massa!",
                     "Olha que foto massa!",
                 ]  # Remova esses comentários e insira os seus comentários aqui
-                driver.find_element_by_class_name("Ypffh").click()
-                comment_input_box = driver.find_element_by_class_name("Ypffh")
+                driver.find_element_by_class_name("#goeq").click()
+                comment_input_box = driver.find_element_by_class_name("#goeq")
                 time.sleep(random.randint(2, 5))
                 self.type_like_a_person(
                     random.choice(comments), comment_input_box)
@@ -101,5 +101,5 @@ class InstagramBot:
 
 
 # Entre com o usuário e senha aqui
-jhonatanBot = InstagramBot("seuUsuario", "suaSenha")
+jhonatanBot = InstagramBot("s.su.zy", "suzysoasuzy")
 jhonatanBot.login()
